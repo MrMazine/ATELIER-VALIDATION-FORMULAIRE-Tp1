@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title> Validate Form </title>
+	<link rel="stylesheet" type="text/css" href="Css Code.css">
+	<script type="text/javascript" src="Java Script Code.js"></script>
+
+</head>
+
+<body>
+
+	<form class="box" >
+		<h1>Login</h1>
+		<input type="text" name="" placeholder="Username" id="userName">
+		<input type="password" name="" placeholder="password" id="Password">
+		
+		<label id="ShowDiv">Show Div :</label>
+			<input type="radio" name="rdBut" onchange="afficher();" id="chkYes" checked="checked"> <span class="RadioColor"> Yes </span>
+			<input type="radio" name="rdBut" onchange="afficher();" id="chkNo" checked="checked"> <span class="RadioColor"> No </span> 
+			<br/><br/>
+
+		<div id="Div1">
+			<label class="labelSelect"> Select City 	</label>
+					<select class="SelectCity">
+						<option value="0"> Select </option>
+						<option value="2"> Beni mellal </option>
+						<option value="3"> Kasba tadla </option>
+						<option value="4"> Casa blanca </option>
+
+					</select>
+		</div>
+		<input type="submit" name="" value="Login" onclick="validate();">
+		<input type="reset" name="" value="Cancle">
+	</form>
+	<p> By HAMZA MAZINE &copy;</p>
+
+
+</body>
+
+</html>
